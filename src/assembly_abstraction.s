@@ -12,7 +12,10 @@ _start:
  	  - As a minimum, you should plan to allocate registers for the following to
  	    to implement the routine
 
- 	    - maximum count of loop which will be assigned your first initial lowercase
+ 	    - maximum count of loop which will be initialized to your first initial, lowercase
+	         - you can tell the assembler to evaluate your initial by specifying a 
+		 character
+		 - example:  addi  x10, x0, 'k'
  	    - count variable, i, that will go from 0 to maximum count
  	    	- or, the count variable could be assigned max value and count to 0
  	    - result variable which is initialized to 0
