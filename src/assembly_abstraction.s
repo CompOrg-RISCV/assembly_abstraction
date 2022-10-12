@@ -28,6 +28,20 @@ _start:
  	Start here
  */
 
+// Plan (Declare) by making a comment for each register that you will be using and its purpose
+// These comments will be helpful to refer back to determine which register to use 
+
+
+
+// Initialize all of your registers.  Immediate instructions are recommended where possible
+
+
+
+// Implement your for loop
+
+
+
+// Store into memory the result(s)
 
 
  /*
@@ -36,7 +50,7 @@ _start:
 	nop
 	nop
 	nop
-	halt
+	halt	// end of simulation
 	nop
 	nop
 	nop
